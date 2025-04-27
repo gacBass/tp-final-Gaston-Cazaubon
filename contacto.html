@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Borel&family=Bungee+Spice&family=Playfair+Display:ital@0;1&family=Special+Gothic+Expanded+One&family=UnifrakturMaguntia&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Borel&family=Bungee+Spice&family=Playfair+Display:ital,wght@1,800&family=Special+Gothic+Expanded+One&family=UnifrakturMaguntia&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="icon" href="assets/img/phone.png">
+    <link rel="stylesheet" href="CSS/contacto.css">
+    <script src="https://kit.fontawesome.com/9746e74613.js" crossorigin="anonymous"></script>
+
+    <title>Contacto</title>
+</head>
+
+<body>
+
+    <header class="mainHeader">
+        <div><img src="assets/img/image.png" alt="" width="400px" height="80px"></div>
+
+        <nav class="navbar playfair-display-gaston">
+            <h3><a href="index.html">Inicio</a></h3>
+            <h3><a href="quienesomos.html">Quiénes somos</a></h3>
+            <h3><a href="galeria.html">Galeria de Casos</a></h3>
+            <h3><a href="consultorios.html">Consultorios</a></h3>
+            <h3><a href="equipoProfesional.html">Equipo Profesional</a></h3>
+            <h3><a class="activo" href="#">Contacto</a></h3>
+        </nav>
+    </header>
+    <main>
+        <div class="contacto">
+            <h1>Dejanos tus datos para poder contactarte!</h1>
+
+            <div class="container">
+                <form action="#">
+                    <label for="fname">Nombre:</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+                    <label for="lname">Apellido:</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+                    <label for="fname">Seleccione sexo: &nbsp;&nbsp;</label>
+                    <input type="radio" id="Masculino" name="age" value="Masculino">
+                    <label for="age1">Masculino</label>
+                    <input type="radio" id="Femenino" name="age" value="Femenino">
+                    <label for="age3">Femenino</label><br><br>
+
+                    <label for="country">Ciudad:</label>
+                    <select id="country" name="country">
+                        <option value="Buenos Aires">Buenos Aires</option>
+                        <option value="La plata">La plata</option>
+                        <option value="Resto del pais">Resto del pais</option>
+                    </select>
+
+                    <label for="subject">Dejamos tu consulta:</label>
+                    <textarea id="subject" name="subject" placeholder="Escribinos acá tu consulta..."
+                        style="height:100px" required></textarea>
+                    <input type="submit" value="Enviar consulta">&nbsp;&nbsp;
+                    <input type="reset" value="Limpiar seleccion">
+
+                </form>
+            </div>
+        </div>
+        <div class="whatsappButton">
+            <a href="https://wa.me/1163538689" target="_blank"><img src="assets/img/whatsapp_contacto.svg" alt=""></a>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Pagina realizada por el alumno Gaston Cazaubon. Adjunto datos de contacto.</p>
+
+
+        <div class="contact">
+            <div class="contactCard"><i class="fa-solid fa-comment"></i>&nbsp;<a href="https://wa.me/1163538689" target="_blank">whatsap</a></div>
+            <div class="contactCard"><i class="fa-solid fa-phone"></i>&nbsp;<a href="tel:+5491163538689">phone</a>
+            </div>
+            <div class="contactCard"><i class="fa-solid fa-envelope">&nbsp;</i><a
+                    href="mailto:gastoncazaubon@gmail.com?subject=Consulta Web?body=Te escribo porque te vi en la web">email</a>
+            </div>
+            <div class="contactCard"><i class="fa-solid fa-globe">&nbsp;</i><a href="https://www.linkedin.com/in/gaston-cazaubon/" target="_blank">linkedin</a>
+            </div>
+
+        </div>
+    </footer>
+    <script>
+        function myFunction() {
+         alert("Su consulta ha sido enviada y le responderemos a la brevedad,  muchas gracias!");
+         
+        }
+    </script>
+</body>
+
+</html>

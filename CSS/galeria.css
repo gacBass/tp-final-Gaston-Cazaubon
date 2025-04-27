@@ -1,0 +1,52 @@
+body {
+  margin: 8px;
+}
+.mainHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  flex-wrap: wrap;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  gap: 50px;
+  justify-items: center;
+}
+
+.carousel-inner img {
+  border: 3px solid rgb(9, 9, 9);
+  padding: 10px;
+}
+
+.carousel-inner p, h5{
+  color: white;
+  font-weight: bold;
+}
+article {
+  padding: 50px;
+}
+
+.title {
+  align-items: center;
+}
+
+article {
+
+  height: auto;
+  width: 830px;
+}
+
+h3, h1 {
+  color: white;
+}
+
+
+
+

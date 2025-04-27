@@ -1,0 +1,33 @@
+.equipo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  gap: 10px;
+  color: aliceblue;
+  justify-items: center;
+}
+.equipo div {
+  display: flex;
+  border: 3px solid rgb(218, 236, 227);
+  width: 80%;
+  background-color: cadetblue;
+  flex-direction: column;
+  align-content: stretch;
+  align-items: center;
+}
+
+.equipo div img {
+  width: 400px;
+  height: 250px;
+  box-shadow: 10px 5px 5px rgb(218, 236, 227);
+}
+
+.equipo div p {
+  color: black;
+  font-weight: bold;
+  margin: 8px;
+
+
+}

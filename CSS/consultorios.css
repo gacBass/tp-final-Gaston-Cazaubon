@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  gap: 0px;
+}
+.ubicacion {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  gap: 10px;
+  justify-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.iframe {
+  border: 3px solid rgb(9, 9, 9);
+  padding: 20px;
+}
+
+h3, h1 {
+  color: white;
+}
